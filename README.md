@@ -22,7 +22,7 @@ Para ejecutar el proyecto localmente:
 
 1. Descarga o clona los archivos del repositorio.
 2. Abre el archivo `index.html` en tu navegador preferido.
-2.5 O en otro caso clonalo en tu propio IDE con el siguiente comando.
+2.5 O en otro caso clonalo en tu propio IDE con el siguiente comando.<br>
 `git clone https://github.com/xclipsy/MyFirstCalculator.git`
 
 ## Estructura de Archivos
