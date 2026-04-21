@@ -33,5 +33,5 @@ Para ejecutar el proyecto localmente:
 
 ## Autores
 
-**Luis Guerrero**
+**Luis Guerrero** <br>
 **Edward Barrios**
