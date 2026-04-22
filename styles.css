@@ -5,67 +5,68 @@
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 800px; 
-  background-color: #f87c55;
-  font-family: Arial, sans-serif;
+  background: #252526;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .calculator {
-  background-color: #e8e0d0;
-  border-radius: 20px;
-  padding: 24px;
-  
+  background: #2d2d2e;
+  border-radius: 24px;
+  padding: 28px 24px;
   display: grid;
-  grid-template-columns: repeat(4, 70px);
-  grid-auto-rows: 65px;
+  grid-template-columns: repeat(4, 72px);
+  grid-template-rows: auto repeat(5, 64px);
   gap: 10px;
 }
 
 .pantalla {
-  grid-column: span 4;
-  background-color: #ffffff;
+  grid-column: 1 / -1;
+  background: #3c3c3c;
   border-radius: 10px;
-  font-size: 32px; 
+  padding: 14px 18px;
+  font-size: 2rem;
   text-align: right;
-  padding: 0 20px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  color: #d4d4d4;
+  margin-bottom: 6px;
 }
 
 .button {
-  background-color: #ffffff;
+  background: #333333;
   border: none;
-  border-radius: 10px;
-  font-size: 19px; 
+  border-radius: 12px;
+  font-size: 1.15rem;
+  color: #d4d4d4;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #f5f0e8;
+  background: #404040;
 }
 
-#AC, #DEL, #\%, #\/, #x, #-, #\+ {
-  background-color: #9e9098;
+#AC, #DEL, #\%, #\/,
+#x, #-, #\+ {
+  background: #094771;
+  color: #007acc;
+}
+
+#AC:hover, #DEL:hover, #\%:hover, #\/:hover,
+#x:hover, #-:hover, #\+:hover {
+  background: #0a5580;
   color: #ffffff;
-}
-
-#AC:hover, #DEL:hover, #\%:hover, #\/:hover, #x:hover, #-:hover, #\+:hover {
-  background-color: #b0a4ab;
 }
 
 #\= {
-  background-color: #7a7080;
+    grid-row: span 2;
+  background: #007acc;
   color: #ffffff;
-  grid-row: span 2;
 }
 
 #\=:hover {
-  background-color: #8a8090;
+  background: #0088e0;
 }
 
 button[id="0"] {
